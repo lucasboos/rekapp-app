@@ -53,14 +53,13 @@ const PagesDropdown = () => {
             Dashboard
           </a>
         </Link>
-        <Link href="/admin/settings">
+        <Link href="/machines/create">
           <a
-            href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Settings
+            Colaboradores
           </a>
         </Link>
         <Link href="/admin/tables">
